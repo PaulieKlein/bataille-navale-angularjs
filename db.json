@@ -1,0 +1,129 @@
+{
+  "games": [
+    {
+      "name": "pauline",
+      "battlefieldSize": {
+        "width": 5,
+        "height": 4
+      },
+      "fleetSize": 3,
+      "user1": {
+        "pseudo": "pauline"
+      },
+      "id": 1,
+      "user2": {
+        "pseudo": "pauline"
+      }
+    },
+    {
+      "name": "popok",
+      "user1": {
+        "email": "pml@mail.fr",
+        "pseudo": "pauline"
+      },
+      "battlefieldSize": {
+        "width": 5,
+        "height": 5
+      },
+      "fleetSize": 4,
+      "id": 2,
+      "user2": {
+        "pseudo": "pauline"
+      }
+    },
+    {
+      "name": "pauline",
+      "user1": {
+        "email": "pp@mail.pa",
+        "pseudo": "pauline"
+      },
+      "battlefieldSize": {
+        "width": 8,
+        "height": 4
+      },
+      "fleetSize": 4,
+      "id": 3,
+      "user2": {
+        "pseudo": "pauline"
+      }
+    },
+    {
+      "name": "Nom Game",
+      "user1": {
+        "pseudo": "pauline"
+      },
+      "id": 4
+    },
+    {
+      "name": "Nom Game",
+      "user1": {
+        "pseudo": "pauline"
+      },
+      "id": 5
+    },
+    {
+      "name": "Nom Game",
+      "user1": {
+        "pseudo": "pauline"
+      },
+      "id": 6,
+      "user2": {
+        "pseudo": "pauline"
+      }
+    },
+    {
+      "name": "Nom Game",
+      "user1": {
+        "pseudo": "pauline"
+      },
+      "id": 7
+    },
+    {
+      "name": "Nom Game",
+      "user1": {
+        "pseudo": "pauline"
+      },
+      "id": 8,
+      "user2": {
+        "pseudo": "pauline"
+      }
+    },
+    {
+      "name": "Nom Game",
+      "user1": {
+        "pseudo": "pauline"
+      },
+      "id": 9
+    },
+    {
+      "name": "Nom Game",
+      "user1": {
+        "pseudo": "pauline"
+      },
+      "id": 10
+    },
+    {
+      "name": "Nom Game",
+      "user1": {
+        "pseudo": "pauline"
+      },
+      "id": 11
+    },
+    {
+      "name": "Nom Game",
+      "user1": {
+        "email": "hubert@gmail.com",
+        "pseudo": "pauline"
+      },
+      "id": 12
+    },
+    {
+      "name": "Nom Game",
+      "user1": {
+        "email": "hubert@gmail.com",
+        "pseudo": "pauline"
+      },
+      "id": 13
+    }
+  ]
+}

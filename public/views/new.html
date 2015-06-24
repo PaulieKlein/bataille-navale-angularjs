@@ -1,0 +1,23 @@
+
+		<form ng-submit="newctrl.save(BattleshipForm)" name="BattleshipForm" novalidate>
+		<label>Nom* : </label><input type="text" required ng-model="newctrl.game.name" name="name">
+<span class="error" ng-show="BattleshipForm.name.$invalid&&BattleshipForm.$dirty">Champ obligatoire</span>
+		<br><br>
+
+		<label>Email : </label><input type="email" ng-model="newctrl.game.user1.email" name="email"><br><br>
+
+		<label>champ de bataille : </label>
+		<label>Width : </label>
+  			<input type ="number"  min="1" max="10" ng-model ="newctrl.game.battlefieldSize.width" name="width">
+		
+		<label>Height : </label>
+  			<input type ="number"  min="1" max="10" ng-model ="newctrl.game.battlefieldSize.height" name="height">
+		 <br><br>
+			<label>Nb bateau(x) : </label>
+		
+
+		<select ng-options="s.value as s.label for s in newctrl.ships" ng-model ="newctrl.game.fleetSize" name="fleetSize"></select>
+  			<br><br>
+		<button type = "submit">Créer jeu</button>
+</form>
+		

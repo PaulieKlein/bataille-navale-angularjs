@@ -1,0 +1,14 @@
+.battlefield{
+	 border-collapse: collapse;
+	 width :50%;
+
+	 background-image:url(app/images/mer.jpg);
+
+}
+
+.battlefield,.battlefield td, .battlefield tr {
+	border: 2px solid black;
+	text-align: center;
+	font-weight: bold;
+	color: white
+}

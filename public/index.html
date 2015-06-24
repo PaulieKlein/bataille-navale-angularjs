@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Bataille Navale</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js">	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular-route.min.js">	</script>
+	<script src="app/todo.js"></script>
+	<script src="app/controllers/TodoController.js"></script>
+	<script src="app/controllers/HomeCtrl.js"></script>
+	<script src="app/controllers/NewCtrl.js"></script>
+	<script src="app/controllers/PrepareCtrl.js"></script>
+	<script src="app/service/factory.js"></script>
+	<script src="app/directives/dtaPhoto.js"></script>
+</head>
+<body ng-app="todo">
+	<header>
+		<ng-include src="'views/header.html'"></ng-include>
+	</header>
+			
+			<a href="#/">Home</a>
+			<a href="#/new">Nouveau jeu</a>
+		<br>
+		<br>
+		<div ng-view ></div>
+
+
+	<footer>
+		<ng-include src="'views/footer.html'"></ng-include>
+	</footer>
+</body>
+</html>
